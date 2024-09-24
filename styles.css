@@ -1,38 +1,47 @@
 body {
-    font-family: Lilita-One, sans-serif;
+    font-family: 'Lilita One', sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #aaa;
-    }
-    header {
+}
+
+header {
     background: #35424a;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    }
-    nav {
+}
+
+nav {
     margin: 15px 0;
     position: sticky;
-    top: 0px;
-    }
-    nav a {
+    top: 0;
+    background-color: #35424a;
+}
+
+nav a {
     margin: 0 10px;
     color: #ffffff;
     text-decoration: none;
-    }
-    nav a:hover {
+}
+
+nav a:hover {
     text-decoration: underline;
-    }
-    section {
+}
+
+section {
     background: #ffffff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    footer {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
     text-align: center;
+    padding: 10px 0;
     margin-top: 20px;
     font-size: 0.9em;
-    color: #fff;
-    }
-    
+}
